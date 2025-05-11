@@ -24,7 +24,7 @@ def get_chatbot_response(user_message):
 # Main UI
 def main():
     st.set_page_config(page_title="N8n Chatbot", layout="centered")
-    st.title("Demo appointment booking chatbot")
+    st.title("Odoo ERP automation Interactive UI")
  
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
